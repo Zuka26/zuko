@@ -1,23 +1,116 @@
 [Interface]
-PrivateKey = cPHeWM+mJHXx8XuvhHc8a/3yL6KFQZ7JYLp9mCXg5Uo=
-Address = 10.9.9.2/32
-DNS = 1.1.1.1, 1.0.0.1
-MTU = 1280
-Jc = 4
-Jmin = 71
-Jmax = 188
-S1 = 139
-S2 = 148
-S3 = 44
-S4 = 26
-H1 = 239418683-244025570
-H2 = 857074701-1179700970
-H3 = 1248224338-1453670441
-H4 = 1648655600-2049476750
-I1 = <r 120>
+PrivateKey = 8K7imCR7LSZfG3tfaWa3Z72qTqR56NYoNX3dQFk4cWo=
+Address = 10.66.66.2/32,fd42:42:42::2/128
+DNS = 1.1.1.1,1.0.0.1
+Jc = 3
+Jmin = 50
+Jmax = 1000
+S1 = 55
+S2 = 25
+S3 = 120
+S4 = 63
+H1 = 433490815-533490814
+H2 = 625581417-725581416
+H3 = 1318078901-1418078900
+H4 = 1965613508-2065613507
+
 
 [Peer]
-PublicKey = 2KOeky73YrHNwTtdJbWuto2zoc8Se6DLCbJ/vhAzBkg=
-Endpoint = 104.168.142.236:39743
-AllowedIPs = 1.0.0.0/8, 2.0.0.0/7, 4.0.0.0/6, 8.0.0.0/7, 11.0.0.0/8, 12.0.0.0/6, 16.0.0.0/4, 32.0.0.0/3, 64.0.0.0/2, 128.0.0.0/3, 160.0.0.0/5, 168.0.0.0/6, 172.0.0.0/12, 172.32.0.0/11, 172.64.0.0/10, 172.128.0.0/9, 173.0.0.0/8, 174.0.0.0/7, 176.0.0.0/4, 192.0.0.0/9, 192.128.0.0/11, 192.160.0.0/13, 192.169.0.0/16, 192.170.0.0/15, 192.172.0.0/14, 192.176.0.0/12, 192.192.0.0/10, 193.0.0.0/8, 194.0.0.0/7, 196.0.0.0/6, 200.0.0.0/5, 208.0.0.0/4, 8.8.8.8/32, 1.1.1.1/32
-PersistentKeepalive = 33
+PublicKey = XsKMEal67+CIagRMas6DD4EGJhHuloPorHgI7pSBlUE=
+PresharedKey = JRjYK4lkNXJOZdVSSprDHz0BD/Thx3MP1qcngL1BBW4=
+Endpoint = 23.254.134.215:63364
+AllowedIPs = 0.0.0.0/0, ::/0
+[Interface]
+PrivateKey = SDb+LviP/YVVBMP/2y82rSrqxeAnBSRTrpTq18InJFw=
+Address = 10.66.66.3/32,fd42:42:42::3/128
+DNS = 1.1.1.1,1.0.0.1
+Jc = 3
+Jmin = 50
+Jmax = 1000
+S1 = 55
+S2 = 25
+S3 = 120
+S4 = 63
+H1 = 433490815-533490814
+H2 = 625581417-725581416
+H3 = 1318078901-1418078900
+H4 = 1965613508-2065613507
+
+
+[Peer]
+PublicKey = XsKMEal67+CIagRMas6DD4EGJhHuloPorHgI7pSBlUE=
+PresharedKey = wwoRt2S9QnBPQ3SYystRhQQuqbz3GmwLTPnujllxzKQ=
+Endpoint = 23.254.134.215:63364
+AllowedIPs = 0.0.0.0/0, ::/0
+[Interface]
+PrivateKey = GMtP6NZPmYDHrEnODctQbWR51hw5N7AKOFyozfofyFk=
+Address = 10.66.66.4/32,fd42:42:42::4/128
+DNS = 1.1.1.1,1.0.0.1
+Jc = 3
+Jmin = 50
+Jmax = 1000
+S1 = 55
+S2 = 25
+S3 = 120
+S4 = 63
+H1 = 433490815-533490814
+H2 = 625581417-725581416
+H3 = 1318078901-1418078900
+H4 = 1965613508-2065613507
+
+
+[Peer]
+PublicKey = XsKMEal67+CIagRMas6DD4EGJhHuloPorHgI7pSBlUE=
+PresharedKey = XsAJ9asxyKbVbdG8CYqWxmucfzF2wCs3MfcZZyAaKyI=
+Endpoint = 23.254.134.215:63364
+AllowedIPs = 0.0.0.0/0, ::/0
+
+
+[Interface]
+PrivateKey = 4MT5r1v0/HMyuzsaovkGZGzmUN3VuCIQSZ8/fWvw/ls=
+Address = 10.66.66.5/32,fd42:42:42::5/128
+DNS = 1.1.1.1,1.0.0.1
+Jc = 3
+Jmin = 50
+Jmax = 1000
+S1 = 55
+S2 = 25
+S3 = 120
+S4 = 63
+H1 = 433490815-533490814
+H2 = 625581417-725581416
+H3 = 1318078901-1418078900
+H4 = 1965613508-2065613507
+
+
+[Peer]
+PublicKey = XsKMEal67+CIagRMas6DD4EGJhHuloPorHgI7pSBlUE=
+PresharedKey = WcYCTFtLq32HMOd/AKv9B3cXjAXg/mGRliixbFTM2nk=
+Endpoint = 23.254.134.215:63364
+AllowedIPs = 0.0.0.0/0, ::/0
+
+
+[Interface]
+PrivateKey = AOMZYzcJgSyoHwZL39XJNxo/cVzSvDEQSbHxnOntU1Y=
+Address = 10.66.66.6/32,fd42:42:42::6/128
+DNS = 1.1.1.1,1.0.0.1
+Jc = 3
+Jmin = 50
+Jmax = 1000
+S1 = 55
+S2 = 25
+S3 = 120
+S4 = 63
+H1 = 433490815-533490814
+H2 = 625581417-725581416
+H3 = 1318078901-1418078900
+H4 = 1965613508-2065613507
+
+
+[Peer]
+PublicKey = XsKMEal67+CIagRMas6DD4EGJhHuloPorHgI7pSBlUE=
+PresharedKey = Tc3V53lfRlqUiitXtisNLqopGTq69kwUn8dr5kCEDgo=
+Endpoint = 23.254.134.215:63364
+AllowedIPs = 0.0.0.0/0, ::/0
+
+
